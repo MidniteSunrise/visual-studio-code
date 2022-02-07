@@ -22,4 +22,4 @@ If you'd like to contribute to this theme, please read the [contributing guideli
 
 ## License
 
-[MIT License](./LICENSE)
+[GPL-TRC License](./LICENSE)

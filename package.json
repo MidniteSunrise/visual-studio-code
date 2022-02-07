@@ -1,71 +1,71 @@
 {
-	"name": "theme-minimal-mistakes",
-	"version": "1.0.0",
-	"displayName": "Minimal-Mistakes Official",
-	"homepage": "https://minimal-mistakes.xyz/",
-	"description": "Official Minimal-Mistakes Theme. A dark theme for many editors, shells, and more.",
-	"publisher": "minimal-mistakes-theme",
-	"license": "MIT",
-	"scripts": {
-		"build": "node ./scripts/build.js",
-		"lint": "node ./scripts/lint.js",
-		"package": "vsce package -o ./bin/minimal-mistakes.vsix",
-		"vscode:prepublish": "npm run build",
-		"vsce-publish": "vsce publish"
-	},
-	"maintainers": [
-		"Minimal-Mistakes <war6324@gmail.com>"
-	],
-	"contributors": [
-		"Dracula Theme"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/minimal-mistakes/visual-studio-code.git"
-	},
-	"bugs": {
-		"url": "https://github.com/minimal-mistakes/visual-studio-code/issues"
-	},
-	"engines": {
-		"vscode": "^1.13.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"keywords": [
-		"minimal-mistakes",
-		"dark",
-		"theme",
-		"color-theme"
-	],
-	"icon": "icon.png",
-	"galleryBanner": {
-		"color": "#3c4557",
-		"theme": "dark"
-	},
-	"contributes": {
-		"themes": [
-			{
-				"label": "Minimal-Mistakes",
-				"uiTheme": "vs-dark",
-				"path": "./theme/minimal-mistakes.json"
-			},
-			{
-				"label": "Minimal-Mistakes Soft",
-				"uiTheme": "vs-dark",
-				"path": "./theme/minimal-mistakes-soft.json"
-			}
-		]
-	},
-	"devDependencies": {
-		"js-yaml": "^4.1.0",
-		"prettier": "^2.5.1",
-		"tinycolor2": "^1.4.2",
-		"vsce": "^2.5.1"
-	},
-	"__metadata": {
-		"id": "4e44877c-1c8d-4f9c-ba86-1372d0fbeeb1",
-		"publisherDisplayName": "Minimal-Mistakes Theme",
-		"publisherId": "fbb3d024-f8f2-460c-bdb5-99552f6d8c4b"
-	}
+    "name": "theme-minimal-mistakes",
+    "version": "1.0.1",
+    "displayName": "Minimal-Mistakes Official",
+    "homepage": "https://minimal-mistakes.xyz/",
+    "description": "Official Minimal-Mistakes Theme. A dark theme for many editors, shells, and more.",
+    "publisher": "TheRepoClub",
+    "license": "GPL-TRC",
+    "scripts": {
+        "build": "node ./scripts/build.js",
+        "lint": "node ./scripts/lint.js",
+        "package": "vsce package -o ./bin/minimal-mistakes.vsix",
+        "vscode:prepublish": "npm run build",
+        "vsce-publish": "vsce publish"
+    },
+    "maintainers": [
+        "Minimal-Mistakes <war6324@gmail.com>"
+    ],
+    "contributors": [
+        "Dracula Theme"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/minimal-mistakes/visual-studio-code.git"
+    },
+    "bugs": {
+        "url": "https://github.com/minimal-mistakes/visual-studio-code/issues"
+    },
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "minimal-mistakes",
+        "dark",
+        "theme",
+        "color-theme"
+    ],
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#3c4557",
+        "theme": "dark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Minimal-Mistakes",
+                "uiTheme": "vs-dark",
+                "path": "./theme/minimal-mistakes.json"
+            },
+            {
+                "label": "Minimal-Mistakes Soft",
+                "uiTheme": "vs-dark",
+                "path": "./theme/minimal-mistakes-soft.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "js-yaml": "^4.1.0",
+        "prettier": "^2.5.1",
+        "tinycolor2": "^1.4.2",
+        "vsce": "^2.5.1"
+    },
+    "__metadata": {
+        "id": "4e44877c-1c8d-4f9c-ba86-1372d0fbeeb1",
+        "publisherDisplayName": "TheRepoClub",
+        "publisherId": "03156e8e-e655-646c-8c63-6ddb7611283e"
+    }
 }

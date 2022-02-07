@@ -7,48 +7,48 @@ semanticClass: theme.minimalmistakes
 semanticHighlighting: true
 minimalmistakes:
   base:
-    - &BG '#282A36'
-    - &FG '#F8F8F2'
-    - &SELECTION '#44475A'
-    - &COMMENT '#6272A4'
-    - &CYAN '#8BE9FD'
-    - &GREEN '#50FA7B'
-    - &ORANGE '#FFB86C'
-    - &PINK '#FF79C6'
-    - &PURPLE '#BD93F9'
-    - &RED '#FF5555'
-    - &YELLOW '#F1FA8C'
+    - &BG '#2e3440'
+    - &FG '#e5e9f0'
+    - &SELECTION '#434c5e'
+    - &COMMENT '#81a1c1'
+    - &CYAN '#88c0d0'
+    - &GREEN '#a3be8c'
+    - &ORANGE '#d08770'
+    - &PINK '#b48ead'
+    - &PURPLE '#765eac'
+    - &RED '#bf616a'
+    - &YELLOW '#ebcb8b'
   ansi:
-    - &COLOR0 '#21222C'
-    - &COLOR1 '#FF5555'
-    - &COLOR2 '#50FA7B'
-    - &COLOR3 '#F1FA8C'
-    - &COLOR4 '#BD93F9'
-    - &COLOR5 '#FF79C6'
-    - &COLOR6 '#8BE9FD'
-    - &COLOR7 '#F8F8F2'
-    - &COLOR8 '#6272A4'
-    - &COLOR9 '#FF6E6E'
-    - &COLOR10 '#69FF94'
-    - &COLOR11 '#FFFFA5'
-    - &COLOR12 '#D6ACFF'
-    - &COLOR13 '#FF92DF'
-    - &COLOR14 '#A4FFFF'
-    - &COLOR15 '#FFFFFF'
+    - &COLOR0 '#2e3440'
+    - &COLOR1 '#bf616a'
+    - &COLOR2 '#a3be8c'
+    - &COLOR3 '#ebcb8b'
+    - &COLOR4 '#765eac'
+    - &COLOR5 '#b48ead'
+    - &COLOR6 '#88c0d0'
+    - &COLOR7 '#e5e9f0'
+    - &COLOR8 '#2e3440'
+    - &COLOR9 '#bf616a'
+    - &COLOR10 '#a3be8c'
+    - &COLOR11 '#ebcb8b'
+    - &COLOR12 '#765eac'
+    - &COLOR13 '#b48ead'
+    - &COLOR14 '#88c0d0'
+    - &COLOR15 '#e5e9f0'
   brightOther:
     # Temporary (awaiting fix)
-    - &TEMP_QUOTES '#E9F284'
-    - &TEMP_PROPERTY_QUOTES '#8BE9FE'
+    - &TEMP_QUOTES '#ebcb8b'
+    - &TEMP_PROPERTY_QUOTES '#88c0d0'
   other:
     - &LineHighlight '#44475A75'
     - &NonText '#FFFFFF1A'
     - &WHITE '#FFFFFF'
     - &TAB_DROP_BG '#44475A70'
     # UI Variants
-    - &BGLighter '#424450'
-    - &BGLight '#343746' # HSV (230   , 25.71, 27.45)
-    - &BGDark '#21222C' # HSV (234.55, 25   , 17.25)
-    - &BGDarker '#191A21' # HSV (234.55, 25   , 13   )
+    - &BGLighter '#434c5e'
+    - &BGLight '#434c5e' # HSV (230   , 25.71, 27.45)
+    - &BGDark '#2e3440' # HSV (234.55, 25   , 17.25)
+    - &BGDarker '#2e3440' # HSV (234.55, 25   , 13   )
 
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 colors:
