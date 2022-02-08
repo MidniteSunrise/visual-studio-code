@@ -1,6 +1,6 @@
 {
     "name": "theme-minimal-mistakes",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "displayName": "Minimal-Mistakes Official",
     "homepage": "https://minimal-mistakes.xyz/",
     "description": "Official Minimal-Mistakes Theme. A dark theme for many editors, shells, and more.",
@@ -40,7 +40,7 @@
     ],
     "icon": "icon.png",
     "galleryBanner": {
-        "color": "#3c4557",
+        "color": "#46545e",
         "theme": "dark"
     },
     "contributes": {

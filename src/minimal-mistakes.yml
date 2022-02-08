@@ -1,54 +1,54 @@
 $schema: vscode://schemas/color-theme
 name: Minimal-Mistakes
-author: Zeno Rocha
+author: Minimal-Mistakes
 maintainers:
   - Minimal-Mistakes <wayne6324@gmail.com>
 semanticClass: theme.minimalmistakes
 semanticHighlighting: true
 minimalmistakes:
   base:
-    - &BG '#2e3440'
+    - &BG '#283036'
     - &FG '#e5e9f0'
-    - &SELECTION '#434c5e'
-    - &COMMENT '#81a1c1'
-    - &CYAN '#88c0d0'
-    - &GREEN '#a3be8c'
-    - &ORANGE '#d08770'
-    - &PINK '#b48ead'
-    - &PURPLE '#765eac'
-    - &RED '#bf616a'
-    - &YELLOW '#ebcb8b'
+    - &SELECTION '#46545e'
+    - &COMMENT '#81a0c1'
+    - &CYAN '#59fff9'
+    - &GREEN '#59ff59'
+    - &ORANGE '#ff9c59'
+    - &PINK '#ff59f9'
+    - &PURPLE '#9059ff'
+    - &RED '#ff5959'
+    - &YELLOW '#ffff59'
   ansi:
-    - &COLOR0 '#2e3440'
-    - &COLOR1 '#bf616a'
-    - &COLOR2 '#a3be8c'
-    - &COLOR3 '#ebcb8b'
-    - &COLOR4 '#765eac'
-    - &COLOR5 '#b48ead'
-    - &COLOR6 '#88c0d0'
+    - &COLOR0 '#283036'
+    - &COLOR1 '#ff5959'
+    - &COLOR2 '#59ff59'
+    - &COLOR3 '#ffff59'
+    - &COLOR4 '#9059ff'
+    - &COLOR5 '#ff59f9'
+    - &COLOR6 '#59fff9'
     - &COLOR7 '#e5e9f0'
-    - &COLOR8 '#2e3440'
-    - &COLOR9 '#bf616a'
-    - &COLOR10 '#a3be8c'
-    - &COLOR11 '#ebcb8b'
-    - &COLOR12 '#765eac'
-    - &COLOR13 '#b48ead'
-    - &COLOR14 '#88c0d0'
+    - &COLOR8 '#43515e'
+    - &COLOR9 '#ffa6a6'
+    - &COLOR10 '#a6ffa6'
+    - &COLOR11 '#ffffa6'
+    - &COLOR12 '#c5a6ff'
+    - &COLOR13 '#ffa6fc'
+    - &COLOR14 '#a6fffc'
     - &COLOR15 '#e5e9f0'
   brightOther:
     # Temporary (awaiting fix)
-    - &TEMP_QUOTES '#ebcb8b'
-    - &TEMP_PROPERTY_QUOTES '#88c0d0'
+    - &TEMP_QUOTES '#ffffa6'
+    - &TEMP_PROPERTY_QUOTES '#a6fffc'
   other:
     - &LineHighlight '#44475A75'
     - &NonText '#FFFFFF1A'
     - &WHITE '#FFFFFF'
     - &TAB_DROP_BG '#44475A70'
     # UI Variants
-    - &BGLighter '#434c5e'
-    - &BGLight '#434c5e' # HSV (230   , 25.71, 27.45)
-    - &BGDark '#2e3440' # HSV (234.55, 25   , 17.25)
-    - &BGDarker '#2e3440' # HSV (234.55, 25   , 13   )
+    - &BGLighter '#46545e'
+    - &BGLight '#3c4852'
+    - &BGDark '#2f3940'
+    - &BGDarker '#20262b'
 
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 colors:
