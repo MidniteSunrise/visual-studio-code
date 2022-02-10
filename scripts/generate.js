@@ -13,7 +13,7 @@ const tinycolor = require('tinycolor2');
 
 /**
  * @typedef {Object} Theme - Parsed theme object.
- * @prop {Record<'base'|'ansi'|'brightOther'|'other', string[]>} minimal-mistakes - Dracula color variables.
+ * @prop {Record<'base'|'ansi'|'brightOther'|'other', string[]>} minimal-mistakes - Minimal-Mistakes color variables.
  * @prop {Record<string, string|null|undefined>} colors - VSCode color mapping.
  * @prop {TokenColor[]} tokenColors - Textmate token colors.
  */
