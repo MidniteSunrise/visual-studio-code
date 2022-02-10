@@ -6,7 +6,7 @@
 
 ## Install
 
-All instructions can be found at [minimal-mistakes/visual-studio-code](https://minimal-mistakes.xyz/apps/vscode).
+All instructions can be found at [minimal-mistakes/visual-studio-code](https://minimal-mistakes.xyz/apps/code-editors/vscode).
 
 ## Team
 
