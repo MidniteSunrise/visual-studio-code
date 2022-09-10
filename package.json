@@ -2,7 +2,7 @@
     "name": "theme-minimal-mistakes",
     "version": "1.0.2",
     "displayName": "Minimal-Mistakes Official",
-    "homepage": "https://minimal-mistakes.xyz/",
+    "homepage": "https://minimalmistakes.org/",
     "description": "Official Minimal-Mistakes Theme. A dark theme for many editors, shells, and more.",
     "publisher": "TheRepoClub",
     "license": "GPL-TRC",
@@ -17,7 +17,7 @@
         "Minimal-Mistakes <war6324@gmail.com>"
     ],
     "contributors": [
-        "Dracula Theme"
+        "Minimal-Mistakes Theme"
     ],
     "repository": {
         "type": "git",
