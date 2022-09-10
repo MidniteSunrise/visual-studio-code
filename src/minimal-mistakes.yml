@@ -40,10 +40,10 @@ minimalmistakes:
     - &TEMP_QUOTES '#ffffa6'
     - &TEMP_PROPERTY_QUOTES '#a6fffc'
   other:
-    - &LineHighlight '#44475A75'
+    - &LineHighlight '#434c5e75'
     - &NonText '#FFFFFF1A'
     - &WHITE '#FFFFFF'
-    - &TAB_DROP_BG '#44475A70'
+    - &TAB_DROP_BG '#434c5e70'
     # UI Variants
     - &BGLighter '#46545e'
     - &BGLight '#3c4852'
